@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class if_bedingungen_02 {
     public static void main(String[] args) {
-        Random random = new Random()
+        Random random = new Random();
 
         int random1 = random.nextInt( 100);
         int random2 = random.nextInt(100);
@@ -22,5 +22,15 @@ public class if_bedingungen_02 {
         System.out.print(random1);
         System.out.print(random2);
 
+        if ((random1<random2) && (random1<50)){
+            System.out.print("ZAhl 1 ist kleiner Zahl 2 und Mini");
+        } if ((random1<30) || (random2 < 30)){
+            system.out.println ("Eine der beiden ist kleiner als 30");
+        }
+        if ((random1 <50) && (random2 != 50)){
+            system.print.println("Erste ZAhl klein, zweite kein 50iger");
+        }
     }
 }
+
+
