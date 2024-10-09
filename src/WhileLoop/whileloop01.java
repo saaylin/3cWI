@@ -15,7 +15,7 @@ public class whileloop01 {
         while(true){
             number = 10+ random.nextInt(21);
 
-        if (number = 15 || number = 25) {
+        if (number == 15 || number == 25) {
             break;
             }
 

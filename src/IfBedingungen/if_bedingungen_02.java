@@ -1,4 +1,4 @@
-// Erstelle zwei Zufallszahl zwischen 0 und 100
+package IfBedingungen;// Erstelle zwei Zufallszahl zwischen 0 und 100
 
 // Wenn die erste Zahl kleiner ist als die zweite UND die erste Zahl kleiner ist als 50
 // dann gib aus "Zahl 1 ist kleiner als Zahl 2 und Mini"
@@ -25,10 +25,10 @@ public class if_bedingungen_02 {
         if ((random1<random2) && (random1<50)){
             System.out.print("ZAhl 1 ist kleiner Zahl 2 und Mini");
         } if ((random1<30) || (random2 < 30)){
-            system.out.println ("Eine der beiden ist kleiner als 30");
+            System.out.println ("Eine der beiden ist kleiner als 30");
         }
         if ((random1 <50) && (random2 != 50)){
-            system.print.println("Erste ZAhl klein, zweite kein 50iger");
+            System.out.println("Erste ZAhl klein, zweite kein 50iger");
         }
     }
 }
