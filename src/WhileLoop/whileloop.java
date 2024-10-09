@@ -15,7 +15,7 @@ public class whileloop {
         System.out.print("Hello" + randomValue);
 
         if (randomValue > 90){
-            isFInished-true;
+            isFinished-true;
         }
     }
 
