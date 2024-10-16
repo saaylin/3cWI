@@ -24,7 +24,7 @@ public class bankomat01 {
                 int value = scanner.nextInt();
                 balance-=value;
                 System.out.print(value);
-                System.out.println("Sie haben " + value + "€ abgehoben!");
+                System.out.println("Sie haben " + value + "€ abgehoben.");
             }
 
             if (selection==3){
