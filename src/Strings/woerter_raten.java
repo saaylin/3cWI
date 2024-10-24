@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class woerter_raten {
     public static void main(String[] args) {
 
-        String[] woerter = {"Hallo", "Fenerbahce", "Mercedes"};
+        String[] woerter = {"hallo", "fenerbahce", "mercedes"};
 
         Random random = new Random();
         String zufall = woerter[random.nextInt(woerter.length)];
