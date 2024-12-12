@@ -12,14 +12,24 @@ public class Car {
     private String color;
 
 
+    public Car (String brand, String serialNumber, int tank){
+        this.brand = brand;
+        this.serialNumber = serialNumber;
+        this.Tank = tank;
+        this.fuelConsumption = fuelConsumption;
+        this.fuelAmount = 0; //Standardwert
+    }
+
     public void drive() {
         if (fuelAmount >= fuelConsumption) {
-            this.fuelAmount = this.fuelAmount - fuelConsumption;
+            this.fuelAmount -= fuelConsumption;
             System.out.println("ich fahre");
+        } else{
+            System.out.println("nicht genug Treibstoff um zum Fahren");
         }
     }
 
-    public void Break() {
+    public void Brake() {
         System.out.println("ich bremse"); 
     }
 
@@ -32,8 +42,7 @@ public class Car {
     }
 
     public void honk(int Repetitions){
-        while (Repetitions > 0){
-            Repetitions -= 1;
+        for (int i = 0; i < Repetitions; i++) {
             System.out.println("tuut");
         }
     }
@@ -106,3 +115,4 @@ public class Car {
         return serialNumber;
     }
 }
+//62
