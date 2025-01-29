@@ -1,11 +1,11 @@
-package OOEinstieg.ErstesObjekt;
+package OOEinstieg.ErstesObjekt.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class car {
-    private List<reifen> reifen;             // Liste für Reifen
-    private engine engine;
+    private List<OOEinstieg.ErstesObjekt.Car.reifen> reifen;             // Liste für Reifen
+    private OOEinstieg.ErstesObjekt.Car.engine engine;
     private List<Rearmirror> mirrors;
     private final int fuelUsage;             // Verbrauch pro Einheit
     private final String carColor;           // Farbe des Autos

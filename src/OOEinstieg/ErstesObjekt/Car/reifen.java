@@ -1,4 +1,4 @@
-package OOEinstieg.ErstesObjekt;
+package OOEinstieg.ErstesObjekt.Car;
 
 public class reifen {
     private int size;       // Größe des Reifens

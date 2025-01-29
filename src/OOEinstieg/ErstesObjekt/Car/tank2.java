@@ -1,4 +1,4 @@
-package OOEinstieg.ErstesObjekt;
+package OOEinstieg.ErstesObjekt.Car;
 
 public class tank2 {
     private double fuelAmount;

@@ -1,4 +1,4 @@
-package OOEinstieg.ErstesObjekt;
+package OOEinstieg.ErstesObjekt.Car;
 
 public class Rearmirror {
     private int size;
