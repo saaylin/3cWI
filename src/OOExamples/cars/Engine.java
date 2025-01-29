@@ -1,9 +1,7 @@
 package OOExamples.cars;
 
-
-
 public class Engine {
-    public enum Type { DIESEL, GASOLINE }
+    public enum Type { e1, e2}
 
     private int horsepower;
     private Type type;
