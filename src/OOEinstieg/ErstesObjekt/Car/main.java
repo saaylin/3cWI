@@ -15,7 +15,7 @@ public class main {
             reifen reifen4 = new reifen(17, "Sommer");
 
             // Konstruktor der Cars-Klasse erfordert mehr Parameter
-            car c1 = new car(e1, "red", "123ABC", 50, 5); // Beispielwerte für carSerialNumber und fuelAmount
+            car c1 = new car(e1, "red", "123ABC", 50, 5);
             c1.addMirror(r1);
             c1.addMirror(r2);
             c1.addReifen(reifen1);
@@ -29,7 +29,6 @@ public class main {
             System.out.println("Das Auto hat " + c1.getMirrors().size() + " Rückspiegel.");
             System.out.println("Das Auto hat " + c1.getReifen().size() + " Reifen.");
 
-
-        }
     }
+}
 
